@@ -1,0 +1,21 @@
+1)copy folder "escape" to /tmp
+1.b) ###### open CLI and change directory command ####
+cd /tmp/escape
+
+
+2) ##### Compile java file command #####
+javac -cp ".:/tmp/escape/jackson-core-2.12.3.jar:/tmp/escape/jackson-databind-2.12.3.jar:/tmp/escape/jackson-annotations-2.12.3.jar"  Continent.java
+
+3) ##### Run java file command #####
+java -cp ".:/tmp/escape/jackson-core-2.12.3.jar:/tmp/escape/jackson-databind-2.12.3.jar:/tmp/escape/jackson-annotations-2.12.3.jar"  Continent
+
+4) ###### enter city code like BOM ####
+
+5) result
+BOM (Mumbai, asia) -> INF (In Guezzam, africa) -> PVA (Providencia Island, south-america) -> BGI (Bridgetown, north-america) -> VDE (Valverde, europe) -> SPN (Saipan, oceania) -> BOM (Mumbai, asia)
+Distance travelled: 38105.722682 KMS
+ 
+ 
+ 
+ 
+ Note: JDK/JRE Java 1.8 should be installed

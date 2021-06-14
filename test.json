@@ -1,0 +1,51 @@
+{
+  "BBA": {
+    "id": "BBA",
+    "name": "Balmaceda",
+    "location": {
+      "lat": -45.909431,
+      "lon": -71.69762
+    },
+    "countryName": "Chile",
+    "iata": "BBA",
+    "rank": 93,
+    "countryId": "CL",
+    "dest": null,
+    "airports": [
+      "BBA"
+    ],
+    "images": [
+      "4.jpg",
+      "5.jpg"
+    ],
+    "popularity": 5.00001,
+    "regId": "southern-america",
+    "contId": "south-america",
+    "subId": null,
+    "terId": null,
+    "con": 5
+  },
+  "SCQ": {
+    "id": "SCQ",
+    "name": "Santiago de Compostela",
+    "location": {
+      "lat": 42.896389,
+      "lon": -8.415278
+    },
+    "countryName": "Spain",
+    "iata": "SCQ",
+    "rank": 17,
+    "countryId": "ES",
+    "dest": "g187508",
+    "airports": [
+      "SCQ"
+    ],
+    "images": [],
+    "popularity": 6.021968273165163,
+    "regId": "southern-europe",
+    "contId": "europe",
+    "subId": null,
+    "terId": null,
+    "con": 25
+  }
+}
